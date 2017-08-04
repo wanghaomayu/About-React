@@ -14,7 +14,7 @@ module.exports = {
     output: {
         path: './build', //打包后的文件存放的地方
         filename: 'main.js', //打包后输出文件的文件名
-        publicPath: 'http://localhost:8888/build/'  //启动本地服务后的根目录
+        publicPath: 'http://localhost:9999/build/'  //启动本地服务后的根目录
     },
 
     module: {
@@ -40,7 +40,7 @@ module.exports = {
 
     devServer: {
         // contentBase: './src/views'  //本地服务器所加载的页面所在的目录
-        port: 8888,
+        port: 9999,
         colors: true,  //终端中输出结果为彩色
         historyApiFallback: true,  //不跳转
         inline: true  //实时刷新
